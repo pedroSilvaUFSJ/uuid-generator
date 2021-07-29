@@ -1,11 +1,22 @@
 {
-  "name": "january-frog-package",
+  "name": "@pedrosilva/uuid-generator",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "author": "Pedro Silva",
-  "license": "Beerware"
+  "license": "Beerware",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroSilvaUFSJ/uuid-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pedroSilvaUFSJ/uuid-generator/issues"
+  },
+  "homepage": "https://github.com/pedroSilvaUFSJ/uuid-generator#readme",
+  "description": "",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
 }
